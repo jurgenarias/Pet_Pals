@@ -8,15 +8,15 @@ function buildPlot() {
     const data = response;
 
     const layout = {
-      scope: "usa",
+      scope: "world",
       title: "Pet Pals",
-      showlegend: false,
+      showlegend: true,
       height: 600,
             // width: 980,
       geo: {
-        scope: "usa",
+        scope: "world",
         projection: {
-          type: "albers usa"
+          type: "equirectangular"
         },
         showland: true,
         landcolor: "rgb(217, 217, 217)",
