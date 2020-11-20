@@ -59,13 +59,13 @@ def pals():
 
     pet_data = [{
         "type": "scattergeo",
-        "locationmode": "USA-states",
+        "locationmode": "country names",
         "lat": lat,
         "lon": lon,
         "text": hover_text,
         "hoverinfo": "text",
         "marker": {
-            "size": 50,
+            "size": 10,
             "line": {
                 "color": "rgb(8,8,8)",
                 "width": 1
